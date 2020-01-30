@@ -1,0 +1,9 @@
+{
+  "name": "sequelize",
+  "version": "1.0.0",
+  "description": "sequelize",
+  "main": "index.js",
+  "repository": "https://github.com/diogoalexandria/node-sequelize.git",
+  "author": "Diogo",
+  "license": "MIT"
+}
