@@ -2,8 +2,21 @@
   "name": "sequelize",
   "version": "1.0.0",
   "description": "sequelize",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "https://github.com/diogoalexandria/node-sequelize.git",
   "author": "Diogo",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.18.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sequelize-cli": "^5.5.1"
+  }
 }
